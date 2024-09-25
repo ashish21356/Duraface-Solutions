@@ -1,0 +1,154 @@
+
+/* Basic styling for the sections */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  
+}
+.container-n {
+width: 100%;
+margin: auto;
+overflow: hidden;
+display: flex;
+flex-wrap: wrap; /* Allow items to wrap to the next line */
+
+align-items: center; /* Center items vertically within their rows */
+gap: 20px; /* Space between items */
+}
+
+.container-n h2 {
+text-align: center; /* Center the heading text */
+width: 100%; /* Ensure the heading takes up the full width of the container */
+margin-bottom: 20px; /* Space below the heading */
+margin-top: 40px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+   
+}
+.hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color:#ff6600;
+   
+}
+.hero button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.categories, .benefits, .testimonials, .contact-cta {
+    padding: 40px 0;
+}
+.categories h2, .benefits h2, .testimonials h2, .contact-cta h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.categories .category, .benefits .benefit, .testimonials .testimonial {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.categories .category img, .benefits .benefit img {
+    width: 30%;
+    margin-right: 20px;
+}
+.categories .category div, .benefits .benefit div, .testimonials .testimonial div {
+    flex: 1;
+}
+.contact-cta {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 40px 20px;
+}
+.contact-cta form {
+    display: inline-block;
+    text-align: left;
+}
+.contact-cta input, .contact-cta textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+.contact-cta button {
+    padding: 10px 20px;
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.benefit {
+display: flex;
+align-items: center;
+width: 100%;
+max-width: 200px; /* Adjust as needed */
+margin-bottom: 20px; /* Space between rows */
+margin-left: 50px;
+}
+
+.benefit img {
+width: 50px; /* Adjust size as needed */
+height: auto;
+margin-right: 10px; /* Space between image and text */
+}
+
+.benefit div {
+flex: 1;
+}
+
+.benefit h3 {
+margin: 0;
+font-size: 1.2em;
+}
+
+.benefit p {
+margin: 5px 0 0;
+font-size: 0.9em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+.benefit {
+max-width: 100%;
+}
+
+.benefit img {
+width: 40px; /* Adjust size for smaller screens */
+}
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0px;
+    background:#ece8e5;
+    padding: 40px;
+}
+.contact-details div {
+    flex: 1;
+    padding: 0 10px;
+}
+.contact-details div p {
+    margin: 0;
+}
+#nav {
+        position: fixed;
+        width:100%;
+        
+    }
+   
